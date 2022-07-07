@@ -1,0 +1,21 @@
+body{
+    background-color: #aaf3f3;
+}
+hr{
+    background-color: red;
+    border-style: dotted none none;
+}
+h1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: rgb(255, 0, 71);
+
+
+}
+h2{
+    
+    text-shadow: #aaf3f3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 0, 71);
+    width: auto;
+}
+       
