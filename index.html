@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-
-
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Free Web tutorials">
@@ -14,52 +12,138 @@
         type = "image/x-icon">
     </head>
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        #more {display: none;}
+        </style>
     <body >
-        <table cellspacing="20">
+        <header>
+            <table cellspacing="20">
+                <tr>
+                    <td><img src="images/mulee-modified.png"  height="200" width="200" alt="mulugeta's profile picture"></td>
+                    <td><h1 id="heading" >Mulugeta Linger</h1></td> 
+                </tr>
+            </table>
+            
+          </header>
+          <section>
+            <nav>
+                <h1>QUIQUE LINKS</h1>
+              <ul>
+                <li><a href="#personal-info" title="Go to Personal Information section">INFORMATION</a></li>
+                <li><a href="#EDUCATION"title="Go to Educational Background section">EDUCATION</a></li>
+                <li><a href="#ACADEMIC"title="Go to Academic Qualification section">QUALIFICATION</a></li>
+                <li><a href="#experience"title="Go to Work Experience section">EXPERIENCE</a></li>
+                <li><a href="#SKILLS"title="Go to skill section">SKILLS</a></li>
+                <li><a href="hobies.html"target="Iframe1"title="Go to Hobbies section">HOBBIES</a></li>
+                <li><a href="#REFERENCE"title="Go to Reference section">REFERENCE</a></li>
+            <!--<li><button onclick="document.location='contact.html'">HTML Tutorial</button></li> -->
+            </ul>
+            </nav>
+
+
+            <article>
+                <iframe src="aboutme.html" style="border:none;" name="Iframe1" height="300px" width="100%" title="Iframe"></iframe>
+              </article>
+              <Right>
+                 <h1>CONTACT ME</h1>
+                 <form  action="mailto:mulerselinger@gmail.com" method="post" enctype="text/plain">
+                    <label> Name: </label>
+                    <input type="text" name="yourName" value=""> <br>
+                    <label> Email:</label>
+                    <input type="email" name="YourEmail" value=""> <br>
+                    <label>Message:</label>
+                    <textarea name="YourTextArea"rows="10" cols="20"></textarea> <br>
+                    <input type="submit" name="">
+    
+                </form>
+                 </Right>
+            </section>
+            
+            <div id="divv">
+
+                <span id="dots"></span>
+            
+            
+            <span id="more">
+            
+           
+
+     
+
+            
+            <hr>
+        <h2 id="personal-info">PERSONAL INFORMATION</h2>
+        <table  cellpadding="0">
             <tr>
-                <td><img src="images/mulee-modified.png"  height="200" width="200" alt="mulugeta's profile picture"></td>
-                <td> <h1 style="color:blue;">Mulugeta Linger</h1>
-                    <p>I have a BSc degree in <strong>Software Engineering</strong>
-                        with a CGPA of <em>3.81</em> from <a href="https://www.jju.edu.et/">Jigjiga University</a>.</p>
-                    </p> I have over three years of working experience at <a href="https://www.haramaya.edu.et/">Haramaya University</a> and <a 
-                    href="https://wu.edu.et/" > Wollo University</a></p>
-                    <p>Now I am web developer</p>
-                </td> 
+                <td>Date of Birth:</td>
+                <td>23/02/1994 E.C</td>
+            </tr>
+           
+            <td>Marital Status: </td>
+            <td>Single</td>
+            <tr>
+                <td>Nationality: </td>
+                <td>Ethiopian</td>
+            </tr>
+            <tr>
+                <td>Health: </td>
+                <td>Excellent (Normal)</td>
+            </tr>
+            <tr>
+                <td>Sex: </td>
+                <td>Male</td>
             </tr>
         </table>
-
+    <hr>
+    <h2 ID ="EDUCATION">EDUCATIONAL BACKGROUND</h2>
+    <table  cellpadding="0">
+        <tr>
+            <td>2006-2010:</td>
+            <td>Shellel primary School</td>
+        </tr>
+       
+        <td>2011-2014: </td>
+        <td>Dembecha Primary and Secondary School</td>
+        <tr>
+            <td>2015-2018: </td>
+            <td>Jigjiga University</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 ID ="ACADEMIC">ACADEMIC QUALIFICATION</h2>
+    <table  cellpadding="0">
+        <tr>
+            <td>Bsc degree:</td>
+            <td>Jigjiga University:</td>
+            <td>Software engineeering(completed)</td>
+        </tr>
+       <tr><td>Msc degree: </td>
+        <td> Addis Ababa Science and Technology University:</td>
+        <td>Software engineering(on study)</td></tr>
+        
+       
+    </table>
     <hr>
 
-        <h2 style="color:rgb(255, 0, 71);"> <b>Common duties of my profession are:</b></h2>
-		<ul> 
-            <li>Training students</li>
-            <li>community services</li>
-            <li>Advising final year projects</li>
-            <li>Conducting ICT research</li>
-            <li>Conducting ICT projects</li>
-            </ul>
 
-            <hr>
+           
 
-           <h2>work experience</h2>
-           <table cellspacing="20">
-            <thead><tr>
-            <th>Dates</th>
-            <th>Work</th>
-        </tr></thead>
+           <h2 id="experience">WORK EXPERIENCE</h2>
+           <table cellspacing="0">
+            
             <tr>
-                <td>2018-2020</td>
+                <td>2018-2020:</td>
                 <td>Assistant lecturer at Haramaya University</td>
             </tr>
             <tr>
-            <td>2020-present</td>
+            <td>2020-present:</td>
             <td>Assistant lecturer at Wollo University</td>
         </tr>
            </table>
 
            <hr>
 
-           <h2>Skils</h2>
+           <h2 id="SKILLS">SKILLS</h2>
            <table border="1">
             <tr>
                 <td>Frontend development</td>
@@ -90,11 +174,61 @@
            </table>
             
                 <hr>
-                
-<a href="hobies.html">My hobies</a> 
-<a href="contact.html">Contact Info</a>   
-<p>NB:- Currently, I am studing MSc program at <a href="http://www.aastu.edu.et/">Addis Ababa 
-    Science and Technology University</a>.</p> 
+                <h2 id="REFERENCE">REFERENCE </h2>
+                <ol> <P>Mr. Leul Aynekulu (MSc) Head of Department of Software Engineering, Wollo University. </P>
+                    <ul>Email: leul.aynekulu@gmail.com</ul> 
+                    <ol> Mob: +251922892375</ol>
+                    <p>Tilahun Ayalew (MSC) Lecturer at Wollo University, Software Engineering department</p> 
+                    <ul>E-mail: itsmetilahun@gmail.com</ul>
+                    <ul>Mobile: +2519-1244-4886</ul>
+                     <ul>Skype ID: tilahun.ayalew5</ul>
+                    
+                    <p>Ashenafi Workie (MSC) Lecturer at Wollo University, Software Engineering department</p> 
+                    <ul>E-mail: Ashenafiworkie@gmail.com</ul>
+                     <ul>Mobile: +251 93 388 0022</ul>
+                    </ol>
+            </span> 
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            <script>
+            function myFunction() {
+              var dots = document.getElementById("dots");
+              var moreText = document.getElementById("more");
+              var btnText = document.getElementById("myBtn");
+            
+              if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more--"; 
+                moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+              }
+            }
+            </script>
+            </div>
+            
+<footer>
+    
+
+        
+
+        <p>SOCIAL MEDIA:
+            
+            <a href="tel:+251947300026"><img src="https://cdn-icons-png.flaticon.com/512/3616/3616215.png" height="20" width="20" alt="Phone Number:"></a>
+        
+            <a href="mailto:mulerselinger@gmail.com"><img src="https://as1.ftcdn.net/v2/jpg/02/73/74/34/1000_F_273743445_8NsO173YKt3qKssAjPPGDLj4TcUlBsNA.jpg"height="20" width="20" alt="E-mail"></a>
+
+        
+            <a href="https://www.facebook.com/mulugeta.linger.9"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" height="20" width="20"alt="facebook"></a>
+
+       
+            <a href="https://t.me/mulersoft"> <img src="https://as2.ftcdn.net/v2/jpg/01/39/21/49/1000_F_139214952_wr40rpRjdLYqMXP4x3oCPbZgMMMvRUOE.jpg" height="20" width="20"alt="Telegram"></a>
+            <a href="https://www.linkedin.com/in/mulugeta-linger-0890bb19a/"> <img src="https://as1.ftcdn.net/v2/jpg/04/37/88/86/1000_F_437888641_XrjjuAwATXWNx10jQurCDaXXJnobhDi4.jpg"height="20" width="20"alt="linkedin"></a>
+            <a href="https://github.com/GithubMuler"> <img src="https://as2.ftcdn.net/v2/jpg/01/39/21/49/1000_F_139214952_wr40rpRjdLYqMXP4x3oCPbZgMMMvRUOE.jpg" height="20" width="20"alt="GitHub"></a></p>
+        </footer>
+  
 
 </body>
 </html>
